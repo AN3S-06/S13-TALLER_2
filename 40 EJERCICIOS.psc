@@ -468,7 +468,7 @@ Funcion ConsonantesCadena[text]
     Para i <- 0 Hasta Longitud(text)-1 Hacer
         letra <- Minusculas(SubCadena(text, i, i))
 		
-        Si letra <> "a" Y letra <> "e" Y letra <> "i" Y letra <> "o" Y letra <> "u" Entonces
+        Si letra <> "a" Y letra <> "e" Y letra <> "i" Y letra <> "o" Y letra <> "u" Y letra <> "A" Y letra <> "E" Y letra <> "I" Y letra <> "O" Y letra<> "U" Entonces
             Escribir letra
         FinSi
     FinPara
