@@ -848,7 +848,7 @@ Algoritmo Opciones
 			"40":
 				Escribir "Gracias por visitar, ha salido del sistema....."
 			De Otro Modo:
-				Escribir "Esa opcion no es valida ingrese numeros del [1....30]"
+				Escribir "Esa opcion no es valida ingrese numeros del [1....40]"
 				
 		FinSegun
 		     Escribir "Ingrese cualquier tecla para continuar con el menu"; Leer tecla
