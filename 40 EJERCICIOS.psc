@@ -374,13 +374,13 @@ FinSubProceso
 //EJERCICIO 31 Salarios mayores al basico
 Funcion  salarioArreglo(n)
 	salariobas=400
-	Dimension sueldo[n+1]
+	Dimension sueldo[n]
 	para i<-0 Hasta n-1 Con Paso 1 Hacer
 		Escribir "Ingrese su sueldo ",i+1
 		Leer sueldo[i]
 	FinPara
 	Escribir "Sueldos mayores al salario basico"
-	Para i<-0 Hasta n Con Paso 1 Hacer
+	Para i<-0 Hasta n-1 Con Paso 1 Hacer
 		si sueldo[i] > salariobas Entonces
 			Escribir  sueldo[i],"$"
 		FinSi
