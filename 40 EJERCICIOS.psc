@@ -280,7 +280,7 @@ Funcion primonum(n)
 FinFuncion
 
 //EJERCICIO 23 Fibonacci 
-SubProceso fibonacci(n)
+Funcion  fibonacci(n)
 	Definir a, b, res, i Como Entero
 	a <- 0
 	b <- 1
@@ -292,7 +292,7 @@ SubProceso fibonacci(n)
 		i <- i + 1
 	FinMientras
 	Mostrar a
-FinSubProceso
+FinFuncion
 
 //EJERCICIO 24 Cant de numeros pares
 Funcion contNumPar(n)
