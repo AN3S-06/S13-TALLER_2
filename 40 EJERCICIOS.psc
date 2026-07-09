@@ -481,7 +481,7 @@ Funcion  PuntuCadena[text]
     Para i <- 0 Hasta Longitud(text)-1 Hacer
         letra <- SubCadena(text, i, i)
 		
-		Si letra = "." O letra = "," O letra = ";" O letra = ":" O letra = "¿" O letra = "?" O letra = "¡" O letra = "!" Entonces
+		Si letra = "." O letra = "," O letra = ";" O letra = ":" O letra = "Â¿" O letra = "?" O letra = "Â¡" O letra = "!" Entonces
 			Escribir letra
 		FinSi
     FinPara
@@ -505,48 +505,48 @@ Algoritmo Opciones
 	Definir total, sumar,prom, sueldo Como Real
 	Definir opc, opc1, tecla Como Caracter
 	num1=0;num2=0;num3=0;opc="";DES=10;opc1<-"";i<-0;n<-0;base<-1;exponente<-1;a<-0;b<-0;res<-0;arreglo<-0;prom<-0; sueldo<-0;contador<-0
-	Mientras opc<>"30" Hacer
+	Mientras opc<>"40" Hacer
 		
 		Borrar Pantalla	
 	    Escribir "1) Suma de dos numeros."
-	    Escribir "2) Verificar si un número es par o impar."
+	    Escribir "2) Verificar si un nÃºmero es par o impar."
 	    Escribir "3) Determinar si una persona es mayor o menor de edad."
-	    Escribir "4) Comparar dos números y presentar el mayor."
-	    Escribir "5) Comparar tres números y presentar el mayor."
-	    Escribir "6) Calcular el descuento de una compra según el monto."
+	    Escribir "4) Comparar dos nÃºmeros y presentar el mayor."
+	    Escribir "5) Comparar tres nÃºmeros y presentar el mayor."
+	    Escribir "6) Calcular el descuento de una compra segÃºn el monto."
 		Escribir "7) Determinar si un estudiante aprueba, supletorio o reprueba."
-	    Escribir "8) Clasificar un triángulo (Equilátero, Isósceles o Escaleno)."
-	    Escribir "9) Seleccionar una opción utilizando la estructura Según."
-	    Escribir "10) Presentar los números del 1 hasta N."
-	    Escribir "11) Sumar los primeros N números."
-	    Escribir "12) Presentar los números pares entre 1 y N."
-	    Escribir "13) Sumar los números pares entre 1 y N."
-	    Escribir "14) Presentar los múltiplos de 3."
-	    Escribir "15) Presentar los múltiplos de otro número."
+	    Escribir "8) Clasificar un triÃ¡ngulo (EquilÃ¡tero, IsÃ³sceles o Escaleno)."
+	    Escribir "9) Seleccionar una opciÃ³n utilizando la estructura SegÃºn."
+	    Escribir "10) Presentar los nÃºmeros del 1 hasta N."
+	    Escribir "11) Sumar los primeros N nÃºmeros."
+	    Escribir "12) Presentar los nÃºmeros pares entre 1 y N."
+	    Escribir "13) Sumar los nÃºmeros pares entre 1 y N."
+	    Escribir "14) Presentar los mÃºltiplos de 3."
+	    Escribir "15) Presentar los mÃºltiplos de otro nÃºmero."
 	    Escribir "16) Tabla de multiplicar."
-		Escribir "17) Multiplicación mediante sumas sucesivas."
+		Escribir "17) MultiplicaciÃ³n mediante sumas sucesivas."
 	    Escribir "18) Potencia mediante multiplicaciones sucesivas."
-	    Escribir "19) Factorial de un número."
-	    Escribir "20) Presentar los divisores de un número."
-	    Escribir "21) Determinar si un número es perfecto."
-	    Escribir "22) Determinar si un número es primo."
+	    Escribir "19) Factorial de un nÃºmero."
+	    Escribir "20) Presentar los divisores de un nÃºmero."
+	    Escribir "21) Determinar si un nÃºmero es perfecto."
+	    Escribir "22) Determinar si un nÃºmero es primo."
 	    Escribir "23) Serie de Fibonacci."
-	    Escribir "24) Contar cuántos números son pares."
+	    Escribir "24) Contar cuÃ¡ntos nÃºmeros son pares."
 	    Escribir "25) Llenar un arreglo."
 	    Escribir "26) Presentar los elementos del arreglo."
-	    Escribir "27) Presentar únicamente los números pares del arreglo."
-	    Escribir "28) Presentar únicamente los números impares del arreglo."
+	    Escribir "27) Presentar Ãºnicamente los nÃºmeros pares del arreglo."
+	    Escribir "28) Presentar Ãºnicamente los nÃºmeros impares del arreglo."
 	    Escribir "29) Calcular la suma de los elementos del arreglo."
 	    Escribir "30) Calcular el promedio del arreglo."
-	    Escribir "31) Presentar los sueldos mayores al salario básico."
+	    Escribir "31) Presentar los sueldos mayores al salario bÃ¡sico."
 	    Escribir "32) Incrementar el 10% a precios mayores a $100."
 	    Escribir "33) Buscar el mayor elemento del arreglo."
 	    Escribir "34) Buscar el menor elemento del arreglo."
-	    Escribir "35) Presentar cada carácter de una cadena."
-	    Escribir "36) Presentar únicamente las vocales."
-	    Escribir "37) Presentar únicamente las consonantes."
-	    Escribir "38) Presentar únicamente los signos de puntuación."
-	    Escribir "39) Contar el número de palabras de una frase."
+	    Escribir "35) Presentar cada carÃ¡cter de una cadena."
+	    Escribir "36) Presentar Ãºnicamente las vocales."
+	    Escribir "37) Presentar Ãºnicamente las consonantes."
+	    Escribir "38) Presentar Ãºnicamente los signos de puntuaciÃ³n."
+	    Escribir "39) Contar el nÃºmero de palabras de una frase."
 		Escribir "40) Salir."
 	    Escribir "=============================================="
 	    Escribir "Ingrese opcion[1...40]";leer opc
